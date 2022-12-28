@@ -1,2 +1,2 @@
-# moodle_tutorial
-  # Moodle Tutorial by Shree Ram Sharma
+# Moodle Tutorial
+  - Moodle Tutorial by Shree Ram Sharma
