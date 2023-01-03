@@ -17,7 +17,7 @@ class simplehtml_form extends moodleform {
 
         // add filepicker to upload file..
         $mform->addElement('filepicker', 'shree_file', get_string('file'), null,
-                   array('maxbytes' => 11111111111111, 'accepted_types' => '*'));
+                   array('maxbytes' => 11111111111111, 'accepted_types' => array('.vtt1')));
 
         $this->add_action_buttons();
     }
