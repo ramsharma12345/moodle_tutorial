@@ -1,0 +1,25 @@
+
+1. List of all table inside database
+
+SELECT  table_name
+FROM information_schema.tables
+WHERE table_schema = 'DATABSE-NAME';
+
+2. SELECT CONCAT("DROP TABLE IF EXISTS ",TABLE_NAME,";") 
+FROM information_schema.tables
+WHERE table_schema = 'firkistag';
+ 
+3. 
+DROP TABLE IF EXISTS local_cer_credentials;
+DROP TABLE IF EXISTS mdl_adminpresets;
+DROP TABLE IF EXISTS mdl_adminpresets_app;
+DROP TABLE IF EXISTS mdl_adminpresets_app_it;
+DROP TABLE IF EXISTS mdl_adminpresets_app_it_a;
+DROP TABLE IF EXISTS mdl_adminpresets_app_plug;
+DROP TABLE IF EXISTS mdl_adminpresets_it;
+DROP TABLE IF EXISTS mdl_adminpresets_it_a;
+DROP TABLE IF EXISTS mdl_adminpresets_plug;
+DROP TABLE IF EXISTS mdl_analytics_indicator_calc;
+.....
+  ....
+     ....
